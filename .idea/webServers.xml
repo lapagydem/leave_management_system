@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b29c7d72-f508-428f-9739-316f78c41cdf" name="pre-prod" url="http://google.com">
+        <fileTransfer rootFolder="/web/web_apps/HRMIS-APP" accessType="SFTP" host="10.10.47.100" port="22" sshConfigId="ce5b28d6-d082-433b-a578-d8251fa955b3" sshConfig="emmanuel.mdegipala@10.10.47.100:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
